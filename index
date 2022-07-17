@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css">
+    <title >my portfolio</title>
+    <style>
+        .head
+        {
+            transform: translateY(-100px);
+            transition:0.8s;
+        }
+        .body
+        {
+            transform: translateX(-100px);
+            transition:0.8s;
+        }
+        .head{
+            text-align: center;
+        }
+        .body{
+            
+            text-align: center;
+        }
+        a{
+           
+        }
+        .cumm{
+            display:flex;
+            justify-content: center;
+            flex-direction: row;
+        }
+        .link img{
+            transform: translateX(1000px);
+            transition: 0.8s;
+            width:100px;
+            height:100px;
+            margin:50px;
+            margin-right :20px;
+        }
+        .link img:hover{
+            width:120px;
+            height:120px;
+            margin-right:0px;
+        }
+        .git img{
+            transform: translateX(1000px);
+            transition: 0.8s;
+            width:100px;
+            height:100px;
+            margin:50px;
+            margin-right :20px;
+           
+           
+        }
+        .git img:hover{
+            width:120px;
+            height:120px;
+            margin-left:0px;
+        }
+        body{
+            min-height: 100vh;
+        }
+    </style>
+</head>
+<body style="background:linear-gradient(to bottom,rgb(0, 255, 195),#000000);">
+    
+    <div class="head" style="color:linear-gradient(to bottom,rgb(22, 91, 219),rgb(100, 149, 237));"  ><h1>ABOUT  ME</h1> </div>
+    <!-- </br> -->
+<div class="body" style="color:linear-gradient(to bottom,rgb(0,0,0),rgb(255,255,255)); ">
+    <p><div style="color:aliceblue; text-decoration: underline;">Name:</div><b>Nikhil</b> </p>
+    <p><div style="color:aliceblue; text-decoration: underline;">Study:</div><b>B.Tech</b></p>
+    <p> I am an avid learner <b>actively looking for internship opportunities.</b>
+    </p>   
+    
+    <div class="cumm">
+        <p><div style="color:aliceblue; text-decoration: underline;margin:120px;text-align: center;" >Profiles:</div></p>
+        <a href="https://www.linkedin.com/in/nikhil-prasad-09716218a/" class="link"> 
+            <img src="http://cleaner-and-launderer.com/wp-content/uploads/2014/11/linkedin.png" >
+        </a>
+    </br> </br> 
+        <a href="https://github.com/Pdnik" class="git">
+            <img src="https://pngimg.com/uploads/github/github_PNG20.png" >
+
+        </a>
+    </div>
+      
+    </br></br>
+    <a href="Resume_Resume_up_for_Nikhil.pdf" download="my_resume">
+        <button class="btn fa fa download">Download resume</button>
+    </a>
+
+    <a href="https://n1h600r8g9tv2ncmqxznzw.on.drv.tw/auth.html
+    "><button class="btn btn-outline-dark">login</button></a>
+    </div>
+
+    
+
+    <script>
+        var n=document.querySelector(".head");
+        var n1=document.querySelector(".body");
+        var n2=document.querySelector("p");
+        var n3=document.querySelector(".git img");
+         var n4=document.querySelector(".link img");
+      window.addEventListener("load",function(){
+        n.style.transform="translateY(0)";
+        n1.style.transform="translateX(0)";
+        n2.style.transform="translateX(0)";
+        n3.style.transform="translateX(0)";
+        n4.style.transform="translateX(0)";
+      })
+       
+
+
+    </script>
+
+
+</body>
+</html>
